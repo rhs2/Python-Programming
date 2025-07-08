@@ -1,0 +1,29 @@
+#1. checking up pip version
+-- pip --version
+#2. installing any packages by pip
+-- pip install [package_name]
+#3. uninstalling any packages
+-- pip uninstall [package_name]
+#4. inspect the content of a python environment and produce a report in JSON format
+-- python -m pip inspect [options]
+#5.Checking up installed package 
+-- pip list
+#6. checking up outdated package
+-- pip list --outdated
+#7. checking up local package
+-- pip list --local
+#8. checking up up to date package
+-- pip list --uptodate
+#9. Output installed packages in requirements format,packages are listed in a case-insensitive sorted order
+-- pip freeze
+-- pip frezze -r [requirements.txt]
+#10. downloading anything
+-- pip download [options]
+#11. install specific version
+-- pip install [package_name_Version]
+#12. Search for packages mentioning “term”
+-- pip search [some term]
+#13. Show details of package
+--pip show[some_package]
+
+
